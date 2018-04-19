@@ -1,1 +1,25 @@
+html{
+	font-size: 1.5vw;
+}
 
+#cblue {
+	color: #87ceeb;
+}
+#navy{
+	color: #191970;
+}
+p{
+	font-size: 2em;
+}
+a {
+	font-family: 'Amiko';
+}
+header{
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Adamina'; 
+}
+h1{
+	font-family: 'Adamina';
+	font-size: 2em;
+}
