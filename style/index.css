@@ -1,18 +1,25 @@
 html{
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 }
 
-#cblue {
+.cblue {
 	color: #87ceeb;
 }
-#navy{
+.navy{
 	color: #191970;
 }
+.white {
+	color: #ffffff;
+}
+.black{
+	color: #000000;
+}
 p{
-	font-size: 2em;
+	font-size: 1.5em;
 }
 a {
 	font-family: 'Amiko';
+	font-size: 1.5em;
 }
 header{
 	text-align: center;
@@ -22,4 +29,8 @@ header{
 h1{
 	font-family: 'Adamina';
 	font-size: 2em;
+}
+.logo{
+	width: 75px;
+	height: 75px;
 }
