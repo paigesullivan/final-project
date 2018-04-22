@@ -14,10 +14,10 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row header">
 			<header class="cblue">
 			<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg" class="logo">
-			CAROLINA MEN'S BASKETBALL</header>
+			<span id="header-text">CAROLINA MEN'S BASKETBALL</span></header>
 		</div>
 		<nav class="navbar navbar-expand-sm navbar-light bg-faded">
 			<div class="collapse navbar-collapse" id="nav-content">
@@ -42,6 +42,7 @@
 		</nav>
 	</div>
 	<div class="container">
+		<div class="col-sm-6 left-third">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -68,10 +69,29 @@
 			<span class="sr-only">Next</span>
 		</a>
 		</div>
+		</div>
+		<div class="col-sm-3 middle-third">
+			Additional news 
+			<ol>
+				<li>Joel Berry is awesome</li>
+				<li>So is theo</li>
+				<li>We National champions</li>
+			</ol>
+		</div>
+		<div class="col-sm-3 login right-third">
+			<h3>Login/Register</h3>        
+        	<form>
+            <p>Username: <input type="text" name="uname" required></p>
+            <p>Password: <input type="password" name="password" required></p>
+            <button type = "button">Login!</button>
+        </form>
+		</div>
 	</div>
-
-<!-- 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> -->
+	<div class="container">
+		<div>
+		check out our social media! 
+		</div>
+		
+	</div>
 </body>
 </html>
