@@ -1,0 +1,18 @@
+td{
+    border-style: solid;
+    border-color: lightblue;
+}
+
+th{
+    border-style: solid;
+    border-color: lightblue;
+}
+
+.table_heading {
+    background-color: navy;
+    color: lightblue;
+}
+table{
+    border-style: solid;
+    border-color: lightgray;
+}
