@@ -1,3 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 50px 4fr 1fr;
+}
+header{
+	grid-row: 1 / 2;
+	grid-column: 1 / 4;
+}
+nav{
+	grid-row: 2 / 3;
+	grid-column: 1 / 4;
+}
+.container{
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+}
+.middle-third{
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+}
+.right-third {
+	grid-row: 3 / 4;
+	grid-column: 3 / 4;
+}
+.footer {
+	grid-row: 4 / 5;
+	grid-column: 1 / 4;
+}
 html{
 	/*font-size: 1.5vw;*/
 	background-color: #66b3ff;
@@ -24,19 +57,17 @@ a {
 	font-family: 'Amiko';
 	font-size: 1.5em;
 }
-.navbar{
+nav {
 	background-color: #66b3ff;
 }
-.nav-link{
-	text-decoration: none;
-	color: white; 
-}
+
 a{
 	text-decoration: none;
 	color: white;
 }
 .left-third{
 	background-color: #191970;
+	margin-left: 50px;
 }
 .middle-third{
 	background-color: #66b3ff;
@@ -49,25 +80,26 @@ a{
 }
 header{
 	text-align: center;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Adamina'; 
 	background-color: white;
 }
-
+ul{
+	list-style-type: none;
+	position: sticky;
+}
+ul li {
+	display: inline;
+	padding-right: 50px;
+}
 h1{
 	font-family: 'Adamina';
 	font-size: 2.3em;
 }
-nav{
-	/*background-color: #191970;*/
-	overflow: hidden;
-}
-li a {
-	color: white;
-}
+
 .carousel {
 	width: 400px;
-	height: 400px;
+	height: 200px;
 }
 .logo{
 	width: 75px;
@@ -77,11 +109,11 @@ li a {
 	background-color: #87ceeb;
 }
 .login{
-	border-color: #191970;
+/*	border-color: #191970;
     border-style: solid;
     border-radius: 10px;
     padding: 10px;
-    width: 18%;
+    width: 18%;*/
 }
 button {background-color: lightblue;
     font-family: 'Amiko';font-size: 20px;
