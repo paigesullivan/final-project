@@ -145,5 +145,42 @@ td{
 
 }
 
-
+@media only screen and (max-width: 450px) {
+	body{
+		margin: 0;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 70px 40px 1fr 1fr 1fr 2fr;
+		background-color: #66b3ff;
+	}
+	header{
+		grid-row: 1 / 2;
+		grid-column: 1 / 2;
+	}
+	nav{
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+	}
+	.left-third {
+		grid-row: 3 / 4;
+		grid-column: 1 / 2;
+	}
+	.right-third{
+		grid-row: 5 / 6;
+		grid-column: 1 / 2;
+	}
+	.middle-third{
+		grid-row: 4 / 5;
+		grid-column: 1 / 2;
+	}
+	.footer {
+		grid-row: 6 / 7;
+		grid-column: 1 / 2;
+	}
+	ul li {
+		display: inline;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+}
 
