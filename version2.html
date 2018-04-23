@@ -95,23 +95,23 @@
     	<form>
         <p>Username: <input type="text" name="uname" required id="uname"></p>
         <p>Password: <input type="password" name="password" required="true" id="password"></p>
-        <button type = "button" id="buttonClick">Login!</button>
+        <button type = "button" id="buttonClick" v>Login!</button>
     </form>
 	</div>
 	<div class="footer">
 		<div id="content">
 			<h1>Message Board</h1>
-			<p>hey, it's paige! go heels duke sucks!</p>
-			<p>hey it's christian! I agree! </p>
-			<p>hey it's grayson, i luv dook</p>
+			<p>paige: go heels duke sucks!</p>
+			<p>christian: I agree! </p>
+			<p>grayson: i luv dook</p>
 		</div>
 		<div id="textInput">
-			<form>
+			<form id="frm1">
 				<input type="text" name="thoughts" value="Tell us your thoughts on the game!" id="thoughts" required="true">
 				<button type="button" id="button">Enter</button>
 			</form>
 		</div>
-		<script type="text/javascript">
+<!-- 		<script type="text/javascript">
 			document.getElementById('button').onclick = function(){
 				var thoughts =document.getElementById('thoughts').value;
 				if(thoughts!=""){
@@ -119,8 +119,9 @@
 					newNode.innerHTML = thoughts;
 					document.getElementById('content').appendChild(newNode);
 				}
+				document.getElementById('frm1').reset();
 			}
-		</script>		
+		</script> -->		
 	</div>
 </body>
 </html>
