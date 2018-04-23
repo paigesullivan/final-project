@@ -100,10 +100,28 @@
         </form>
 		</div>
 	<div class="footer">
-		<div>
-		check out our social media! 
+		<div id="content">
+			<h1>Message Board</h1>
+			<p>hey, it's paige! go heels duke sucks!</p>
+			<p>hey it's christian! I agree! </p>
+			<p>hey it's grayson, i luv dook</p>
 		</div>
-		
+		<div id="textInput">
+			<form>
+				<input type="text" name="thoughts" value="Tell us your thoughts on the game!" id="thoughts" required="true">
+				<button type="button" id="button">Enter</button>
+			</form>
+		</div>
+		<script type="text/javascript">
+			document.getElementById('button').onclick = function(){
+				var thoughts =document.getElementById('thoughts').value;
+				if(thoughts!=""){
+					var newNode= document.createElement('p');
+					newNode.innerHTML = thoughts;
+					document.getElementById('content').appendChild(newNode);
+				}
+			}
+		</script>		
 	</div>
 </body>
 </html>
