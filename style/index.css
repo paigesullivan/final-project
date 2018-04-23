@@ -76,12 +76,12 @@ li a {
 .media-block {
 	background-color: #87ceeb;
 }
-.login{
-	border-color: #191970;
+#login{
+/*	border-color: #191970;
     border-style: solid;
     border-radius: 10px;
     padding: 10px;
-    width: 18%;
+    width: 18%;*/
 }
 button {background-color: lightblue;
     font-family: 'Amiko';font-size: 20px;

@@ -5,37 +5,44 @@ body{
 	margin: 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 50px 4fr 1fr;
+	grid-template-rows: 80px 50px 1fr 1fr;
+	background-color: #66b3ff;
+
 }
 header{
 	grid-row: 1 / 2;
 	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+	grid-column: 1 / 4;	
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Adamina'; 
+	background-color: white;
 }
 nav{
 	grid-row: 2 / 3;
 	grid-column: 1 / 4;
+	background-color: #66b3ff;
 }
 .container{
-	grid-row: 3 / 4;
+	grid-row: 3 / 5;
 	grid-column: 1 / 2;
 }
 .middle-third{
-	grid-row: 3 / 4;
+	grid-row: 3 / 5;
 	grid-column: 2 / 3;
 }
 .right-third {
-	grid-row: 3 / 4;
+	grid-row: 3 / 5;
 	grid-column: 3 / 4;
 }
 .footer {
-	grid-row: 4 / 5;
+	grid-row: 5 / 6;
 	grid-column: 1 / 4;
+	background-color: white;
 }
 html{
 	/*font-size: 1.5vw;*/
-	background-color: #66b3ff;
-}
-body {
 	background-color: #66b3ff;
 }
 .cblue {
@@ -56,12 +63,6 @@ p{
 a {
 	font-family: 'Amiko';
 	font-size: 1.5em;
-}
-nav {
-	background-color: #66b3ff;
-}
-
-a{
 	text-decoration: none;
 	color: white;
 }
@@ -73,15 +74,9 @@ a{
 	background-color: #66b3ff;
 }
 .right-third{
-	background-color: #191970;
-}
-.header{
 	background-color: white;
 }
-header{
-	text-align: center;
-	font-size: 3em;
-	font-family: 'Adamina'; 
+.header{
 	background-color: white;
 }
 ul{
@@ -91,6 +86,7 @@ ul{
 ul li {
 	display: inline;
 	padding-right: 50px;
+	padding-left: 50px;
 }
 h1{
 	font-family: 'Adamina';
@@ -108,7 +104,7 @@ h1{
 .media-block {
 	background-color: #87ceeb;
 }
-.login{
+#login{
 /*	border-color: #191970;
     border-style: solid;
     border-radius: 10px;

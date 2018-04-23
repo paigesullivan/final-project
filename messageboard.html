@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Message Board</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/version2.css">
+	<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style/board.css">
+</head>
+<body>
+		<header class="cblue">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg" class="logo" height="50" width="50">
+			<span id="header-text">CAROLINA MEN'S BASKETBALL</span>
+		</header>
+		<nav >
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li >
+						<a  href="schedule.html">Schedule</a>
+					</li>
+					<li >
+						<a href="statistics.html">Statistics</a>
+					</li>
+					<li>
+						<a  href="roster.html">Roster</a>
+					</li>
+					<li >
+						<a  href="#">Message Board</a>
+					</li>
+				</ul>
+		<div id="content">
+			<h1>Duke Game Board</h1>
+			<p>hey, it's paige! go heels duke sucks!</p>
+			<p>hey it's christian! I agree! </p>
+			<p>hey it's grayson, i luv dook</p>
+		</div>
+		<div id="textInput">
+			<form>
+				<input type="text" name="thoughts" value="Tell us your thoughts on the game!" id="thoughts" required="true">
+				<button type="button" id="button">Enter</button>
+			</form>
+		</div>
+		<script type="text/javascript">
+			document.getElementById('button').onclick = function(){
+				var thoughts =document.getElementById('thoughts').value;
+				if(thoughts!=""){
+					var newNode= document.createElement('p');
+					newNode.innerHTML = thoughts;
+					document.getElementById('content').appendChild(newNode);
+				}
+			}
+		</script>
+</body>
+</html>
