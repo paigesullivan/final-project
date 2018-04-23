@@ -1,0 +1,22 @@
+td{
+    border-style: solid;
+    border-color: #66b3ff;
+font-family: 'Adamina'; }
+
+th{
+    border-style: solid;
+    border-color: #66b3ff;
+font-family: 'Adamina'; }
+
+.table_heading {
+    background-color: #191970;
+    color: #66b3ff;
+    font-family: 'Adamina'; 
+}
+table{
+    border-style: solid;
+    border-color: lightgray;
+   
+font-family: 'Adamina'; }
+
+h2{font-family: 'Adamina'; }

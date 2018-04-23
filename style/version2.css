@@ -90,13 +90,20 @@ tr:hover {
 }
 th{
     padding-left: 3px;
-    padding-right: 3px;
+    padding-right: 3px;    
+    border-style: solid;
+    border-color: lightblue;
 }
 td{
     padding-left: 3px;
-    padding-right: 3px;
+    padding-right: 3px;   
+    border-style: solid;
+    border-color: lightblue;
 }
-
+.table_heading {
+    background-color: navy;
+    color: lightblue;
+}
 
 
 @media only screen and (max-width: 825px){
@@ -117,4 +124,5 @@ td{
 	}
 
 }
+
 
