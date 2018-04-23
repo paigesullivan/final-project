@@ -18,7 +18,7 @@
 				<a href="index.html">Home</a>
 			</li>
 			<li >
-				<a href="#">Schedule</a>
+				<a href="schedule_table_march.html">Schedule</a>
 			</li>
 			<li >
 				<a href="statistics.html">Statistics</a>
@@ -48,6 +48,18 @@
        function onSelectChange(){
         if(document.getElementById('month').value == "nov"){
            location.href="schedule_table_nov.html";
+       }
+       else if(document.getElementById('month').value == "dec"){
+           location.href="schedule_table_dec.html";
+       }
+       else if(document.getElementById('month').value == "jan"){
+           location.href="schedule_table_jan.html";
+       }
+       else if(document.getElementById('month').value == "feb"){
+           location.href="schedule_table_feb.html";
+       }
+       else if(document.getElementById('month').value == "mar"){
+           location.href="schedule_table_march.html";
        }
        }
     </script>

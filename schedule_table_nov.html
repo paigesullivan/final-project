@@ -18,7 +18,7 @@
 				<a href="index.html">Home</a>
 			</li>
 			<li >
-				<a href="#">Schedule</a>
+				<a href="schedule_table_march.html">Schedule</a>
 			</li>
 			<li >
 				<a href="statistics.html">Statistics</a>
@@ -35,14 +35,34 @@
     <h2>Carolina Men's Basketball 2017-2018 Schedule: November</h2>
     
     <form>Month:<br>
-            <select name="month">
-                <option value="nov">November</option>
-                <option value="dec">December</option>
-                <option value="jan">January</option>
-                <option value="feb">February</option>
-                <option value="mar">March</option>  
+            <select name="month" id="month" onChange="onSelectChange()">
+                <option value="default">Select a month</option>
+                <option value="nov" id="nov"> <a href="schedule_table_nov.html">November</a> </option>
+                <option value="dec"> <a href="schedule_table_dec.html">December</a> </option>
+                <option value="jan"> <a href="schedule_table_jan.html">January</a> </option>
+                <option value="feb"> <a href="schedule_table_feb.html">February</a> </option>
+                <option value="mar"> <a href="schedule_table_march.html">March</a> </option>  
             </select>
         </form>
+    <script type="text/javascript">
+       function onSelectChange(){
+        if(document.getElementById('month').value == "nov"){
+           location.href="schedule_table_nov.html";
+       }
+       else if(document.getElementById('month').value == "dec"){
+           location.href="schedule_table_dec.html";
+       }
+       else if(document.getElementById('month').value == "jan"){
+           location.href="schedule_table_jan.html";
+       }
+       else if(document.getElementById('month').value == "feb"){
+           location.href="schedule_table_feb.html";
+       }
+       else if(document.getElementById('month').value == "mar"){
+           location.href="schedule_table_march.html";
+       }
+       }
+    </script>
 	
     <table class="schedule">
         <tr>
