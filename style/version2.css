@@ -101,3 +101,16 @@ td{
     padding-left: 3px;
     padding-right: 3px;
 }
+.table_heading {
+    background-color: navy;
+    color: lightblue;
+}
+td{
+    border-style: solid;
+    border-color: lightblue;
+}
+
+th{
+    border-style: solid;
+    border-color: lightblue;
+}
