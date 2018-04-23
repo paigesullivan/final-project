@@ -85,3 +85,19 @@ button {
 	background-color: lightblue;
     font-family: 'Amiko';font-size: 20px;
 }
+table{
+    background-color: lightgray;
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+tr:hover {
+    background-color: orange;
+}
+th{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+td{
+    padding-left: 3px;
+    padding-right: 3px;
+}
