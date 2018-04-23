@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 50% 30% 20%;
 	grid-template-rows: 80px 50px 1fr 1fr;
 	background-color: #66b3ff;
 
@@ -94,8 +94,7 @@ h1{
 }
 
 .carousel {
-	width: 400px;
-	height: 200px;
+	width: 100%;
 }
 .logo{
 	width: 75px;
