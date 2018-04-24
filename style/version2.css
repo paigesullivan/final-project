@@ -6,6 +6,7 @@ body{
 	display: grid;
 	grid-template-columns: 50% 30% 20%;
 	grid-template-rows: 80px 50px 1fr 1fr;
+
 	background-color: #66b3ff;
 }
 
@@ -22,6 +23,8 @@ nav{
 	grid-row: 2 / 3;
 	grid-column: 1 / 4;
 	background-color: #66b3ff;
+	border-style: solid;
+	/*border-color: #191970;*/
 }
 .left-third{
 	grid-row: 3 / 5;
@@ -32,15 +35,26 @@ nav{
 .middle-third{
 	grid-row: 3 / 5;
 	grid-column: 2 / 3;	
+	color: black;
+	font-size: 1em;
+	font-family: 'Amiko';
 }
 .right-third {
 	grid-row: 3 / 5;
 	grid-column: 3 / 4;
-	background-color: white;
+	border-style: solid;
+	border-color: #191970;
 }
 .footer {
 	grid-row: 5 / 6;
 	grid-column: 1 / 4;
+	background-color: #dcdcdc;
+}
+#board-header{
+	text-align: center;
+}
+h4{
+	font-family: 'Adamina';
 }
 p{
 	font-size: 1.5em;
@@ -67,6 +81,7 @@ h1{
 }
 .carousel {
 	width: 100%;
+	height: 100%;
 }
 .logo{
 	width: 75px;
@@ -76,8 +91,10 @@ h1{
 	background-color: #87ceeb;
 }
 button {
-	background-color: lightblue;
-    font-family: 'Amiko';font-size: 20px;
+	background-color: #191970;
+	color: white;
+    font-family: 'Amiko';
+    font-size: 20px;
 }
 table{
     background-color: lightgray;
@@ -104,13 +121,13 @@ td{
     color: lightblue;
 }
 
-
+/*tablet view*/
 @media only screen and (max-width: 950px){
 	body{
 		margin: 0;
 		display: grid;
 		grid-template-columns: 70% 30%;
-		grid-template-rows: 80px 50px 1fr 1fr 1fr;
+		grid-template-rows: 80px 50px 1fr .5fr 3fr;
 		background-color: #66b3ff;
 	}
 	header{
@@ -142,15 +159,18 @@ td{
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+	a {
+		font-size: 1.2em;
+	}
 
 }
-
+/*mobile view*/
 @media only screen and (max-width: 450px) {
 	body{
 		margin: 0;
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 70px 40px 1fr 1fr 1fr 2fr;
+		grid-template-rows: 70px 40px 1fr .7fr .5fr 2fr;
 		background-color: #66b3ff;
 	}
 	header{
@@ -181,6 +201,9 @@ td{
 		display: inline;
 		padding-left: 1%;
 		padding-right: 1%;
+	}
+	a {
+		font-size: 1em;
 	}
 }
 

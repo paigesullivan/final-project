@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style/version2.css">
 	<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style/version2.css">
 	<link rel="stylesheet" type="text/css" href="style/board.css">
 </head>
 <body>
@@ -36,14 +37,15 @@
 					</li>
 				</ul>
 		<div id="content">
-			<h1>Duke Game Board</h1>
-			<p>hey, it's paige! go heels duke sucks!</p>
+			<h1>NCAA Tournament Game Board</h1>
+			<h4>These boards are anonymous, and are live during a game so you can post your thoughts!</h4>
+			<p>hey, it's paige! go heels!</p>
 			<p>hey it's christian! I agree! </p>
-			<p>hey it's grayson, i luv dook</p>
+			<p>Oh no, the Heels are losing :(</p>
 		</div>
 		<div id="textInput">
-			<form>
-				<input type="text" name="thoughts" value="Tell us your thoughts on the game!" id="thoughts" required="true">
+			<form id="frm1">
+				<textarea name="thoughts" placeholder="Tell us your thoughts on the game!" id="thoughts" required="true" style="width:400px; height: 150px; margin-left: 5%;"></textarea>
 				<button type="button" id="button">Enter</button>
 			</form>
 		</div>
@@ -55,6 +57,8 @@
 					newNode.innerHTML = thoughts;
 					document.getElementById('content').appendChild(newNode);
 				}
+				document.getElementById('frm1').reset();
+
 			}
 		</script>
 </body>

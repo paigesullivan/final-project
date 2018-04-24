@@ -50,23 +50,26 @@
 	    <div class="carousel-inner">
 
 	      <div class="item active">
-	        <img src="southerns.jpg" alt="Los Angeles" style="width:500px; height:50%;">
+	        <img src="resources/duke.jpg" alt="UNC Beats Duke" style="width:100%; height:100%;">
 	        <div class="carousel-caption">
 	          <h3>UNC Beats Duke</h3>
+	          <div>Photo credit to news and observer</div>
 	        </div>
 	      </div>
 
 	      <div class="item">
-	        <img src="southerns.jpg" alt="Chicago" style="width:500px; height:50%">
+	        <img src="resources/tam.jpg" alt="Texas A&M" style="width:100%; height:100%">
 	        <div class="carousel-caption">
-	          <h3>Despite loss to Texas A and M, Tar heels have great season</h3>
+	          <h3>Despite loss to Texas A &amp; M, Tar heels have great season</h3>
+	          <div>AP Photo/Bob Leverone</div>
 	        </div>
 	      </div>
 	    
 	      <div class="item">
-	        <img src="southerns.jpg" alt="New York" style="width:500px; height:50%">
+	        <img src="resources/seniors-champs.jpg" height="300px" alt="Senior Night" style="width:100%;">
 	        <div class="carousel-caption">
 	          <h3>Senior Night</h3>
+	          <div>Getty Sports</div>
 	        </div>
 	      </div>
     	</div>
@@ -93,35 +96,26 @@
 	<div class="right-third" id="login">
 		<h3>Login to Access Message Board</h3>        
     	<form>
-        <p>Username: <input type="text" name="uname" required id="uname"></p>
-        <p>Password: <input type="password" name="password" required="true" id="password"></p>
+        <input type="text" placeholder="username" required id="uname">
+        <input type="password" placeholder="password" required="true" id="password">
         <button type = "button" id="buttonClick" v>Login!</button>
     </form>
 	</div>
 	<div class="footer">
 		<div id="content">
-			<h1>Message Board</h1>
+			<h1 id="board-header">Message Board</h1>
+			<h4 id="board-header">Share your thoughts on the heels!</h2>
 			<p>paige: go heels duke sucks!</p>
 			<p>christian: I agree! </p>
 			<p>grayson: i luv dook</p>
 		</div>
 		<div id="textInput">
 			<form id="frm1">
-				<input type="text" name="thoughts" value="Tell us your thoughts on the game!" id="thoughts" required="true">
+				<textarea name="thoughts" placeholder="Tell us your thoughts on the game!" id="thoughts" required="true" style="width:400px; height: 150px; margin-left: 5%;"></textarea>
 				<button type="button" id="button">Enter</button>
 			</form>
 		</div>
-<!-- 		<script type="text/javascript">
-			document.getElementById('button').onclick = function(){
-				var thoughts =document.getElementById('thoughts').value;
-				if(thoughts!=""){
-					var newNode= document.createElement('p');
-					newNode.innerHTML = thoughts;
-					document.getElementById('content').appendChild(newNode);
-				}
-				document.getElementById('frm1').reset();
-			}
-		</script> -->		
+	
 	</div>
 </body>
 </html>

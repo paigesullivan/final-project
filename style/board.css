@@ -11,10 +11,10 @@ body{
 #content{
 	grid-row: 3 / 4;
 	grid-column: 1 / 4;
-	background-color: white;
+	background-color: #dcdcdc;
 }
 #textInput {
 	grid-row: 4 / 5;
 	grid-column: 2 / 3;
-	background-color: green;
+	background-color: #dcdcdc;
 }
