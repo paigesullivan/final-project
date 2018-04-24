@@ -22,15 +22,27 @@ nav{
 	grid-row: 2 / 3;
 	grid-column: 1 / 4;
 	background-color: #66b3ff;
+	border-style: solid;
+	border-color: #191970;
 }
-
+.left-third{
+	grid-row: 3 / 5;
+	grid-column: 1 / 2;
+	background-color: #191970;
+	margin-left: 50px;
+}
 .middle-third{
 	grid-row: 3 / 5;
 	grid-column: 2 / 3;	
+	color: black;
+	font-size: 1em;
+	font-family: 'Amiko';
 }
 .right-third {
 	grid-row: 3 / 5;
 	grid-column: 3 / 4;
+	border-style: solid;
+	border-color: #191970;
 }
 .footer {
 	grid-row: 5 / 6;
@@ -46,13 +58,7 @@ a {
 	text-decoration: none;
 	color: white;
 }
-.left-third{
-	background-color: #191970;
-	margin-left: 50px;
-}
-.right-third{
-	background-color: white;
-}
+
 ul{
 	list-style-type: none;
 	position: sticky;
@@ -66,6 +72,10 @@ h1{
 	font-family: 'Adamina';
 	font-size: 2.3em;
 }
+h2{
+	font-size: 1.7em;
+	font-family: 'Adamina';
+}
 .carousel {
 	width: 100%;
 }
@@ -78,10 +88,16 @@ h1{
 }
 button {
 	background-color: lightblue;
-    font-family: 'Amiko';font-size: 20px;
+    font-family: 'Amiko';
+    font-size: 20px;
 }
-
-
+form{
+	font-family: 'Amiko';
+	font-size: 15px;
+}
+select{
+	font-size: 15px;
+}
 table{
     background-color: lightgray;
     font-size: 1.4em;

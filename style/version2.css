@@ -24,7 +24,7 @@ nav{
 	grid-column: 1 / 4;
 	background-color: #66b3ff;
 	border-style: solid;
-	/*border-color: #191970;*/
+	border-color: #191970;
 }
 .left-third{
 	grid-row: 3 / 5;
@@ -78,6 +78,9 @@ ul li {
 h1{
 	font-family: 'Adamina';
 	font-size: 2.3em;
+}
+h2{
+	font-family: 'Adamina';
 }
 .carousel {
 	width: 100%;
