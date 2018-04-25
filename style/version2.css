@@ -7,7 +7,7 @@ body{
 	grid-template-columns: 50% 30% 20%;
 	grid-template-rows: 80px 50px 1fr 1fr;
 
-	background-color: #66b3ff;
+	background-color: #ccebff;
 }
 
 header{
@@ -36,7 +36,7 @@ nav{
 	grid-row: 3 / 5;
 	grid-column: 2 / 3;	
 	color: black;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family: 'Amiko';
 }
 .right-third {
@@ -48,7 +48,9 @@ nav{
 .footer {
 	grid-row: 5 / 6;
 	grid-column: 1 / 4;
-	background-color: #dcdcdc;
+	/*background-color: #dcdcdc;*/
+	border-top-style: solid;
+	border-color: #191970;
 }
 #board-header{
 	text-align: center;
@@ -65,6 +67,9 @@ a {
 	font-size: 1.5em;
 	text-decoration: none;
 	color: white;
+}
+#link{
+	color: black;
 }
 ul{
 	list-style-type: none;

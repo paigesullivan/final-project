@@ -6,7 +6,7 @@ body{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 0px;
-	background-color: #66b3ff;
+	background-color: #ccebff;
 }
 #content{
 	grid-row: 3 / 4;
