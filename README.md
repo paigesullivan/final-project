@@ -1,3 +1,3 @@
 # final-project
 
-hello i made some changes to our project for unc basketball 
+This is a website for fans of the UNC Men's Basketball team.
